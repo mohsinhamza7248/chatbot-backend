@@ -1,0 +1,41 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build / cache files
+dist/
+build/
+.cache/
+.tmp/
+
+# Dependency lock (optional if you use only one package manager)
+package-lock.json
+pnpm-lock.yaml
+
+# Coverage / test
+coverage/
+.nyc_output/
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.pid
+*.seed
+*.pid.lock
